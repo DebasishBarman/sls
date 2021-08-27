@@ -1,0 +1,54 @@
+.custom{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 214, 0);
+    z-index: 1;
+    clip-path: circle(29% at 8% 50%);
+}
+h2{
+    font-size: 40px;
+    color:rgb(20, 43, 111);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    color:rgb(20, 43, 111);
+    font-family: "LL Circular", sans-serif;
+}
+i{
+    font-size: 18px;
+    color:rgb(20, 43, 111);
+    font-family: serif;
+}
+a{
+    font-size: 22px;
+    color:rgb(20, 43, 111);
+    font-family: LL Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;;
+    text-decoration: none;
+    font-weight: bold;
+}
+.subs{
+    font-size: 16px;
+    color: #868e96;
+    font-family:LL Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.cont {
+    display: inline-block;
+    /* margin: 20px; */
+    overflow: hidden;            /* clip the excess when child gets bigger than parent */
+  }
+  .cont img {
+    display: block;
+    transition: transform .4s;   /* smoother zoom */
+  }
+  .cont:hover img {
+    transform: scale(1.09);
+    transform-origin: 50% 50%;
+  }
+  .m-2{
+      background-color: #f1efef;
+  }

@@ -1,0 +1,40 @@
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+  .centered2 {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+  }
+  .centered3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered4 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  input{
+      padding: 10px;
+    color:#fff;
+      background-color: rgb(20, 43, 111);
+      width: 150px;
+      height: 50px;;
+      border-radius:50px;
+      border-color: rgb(20, 43, 111);
+      font-weight: bold;
+  }
+  input:hover{
+      background-color: #fff;
+      color: rgb(20, 43, 111);
+
+  }
